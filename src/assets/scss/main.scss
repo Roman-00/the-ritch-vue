@@ -1,0 +1,53 @@
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+@import 'normalize';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after, *:active, *:focus, *:hover {
+    outline: 0;
+    outline-offset: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 400;
+    line-height: 24px;
+    background: $bg-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+
+.wrapper {
+    padding: 50px;
+    background: $white;
+    box-shadow: 0 3px 27px 17px rgba($black, 0.06);
+}
